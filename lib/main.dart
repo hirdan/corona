@@ -9,12 +9,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Corona Virus Tracker',
+      title: 'Corona Virus',
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
       ),
       home: DefaultTabController(
-        length: 4,
+        length: 1,
         child: Scaffold(
           appBar: AppBar(
             title: Text('Corona Virus'),
